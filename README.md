@@ -50,7 +50,7 @@ Timed.after("9.7", function() { ... });         // 9.7 milliseconds
 Timed.after("50sec", function() { ... });       // 50 seconds
 Timed.after(7, "mins", function() { ... });     // 7 minutes
 Timed.after("33", "hours", function() { ... }); // 33 hours
-Timed.after("2 hours, 45 minutes", function() { ... }); // 33 hours
+Timed.after("2 hours, 45 minutes", function() { ... }); // 2 hours, 45 minutes
 Timed.after("minute", function() { ... });      // 1 minute
 Timed.after([
 	["1", "minute"],
